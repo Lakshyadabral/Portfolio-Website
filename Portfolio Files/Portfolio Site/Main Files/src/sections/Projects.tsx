@@ -8,29 +8,31 @@ import grainImage from '@/assets/images/grain.jpg'
 import { SectionHeader } from "@/components/SectionHeader";
 import { Card } from "@/components/Card";
 
+
+
 const portfolioProjects = [
   {
     company: "Wanderlust",
-    year: "2024",
-    title: "Dark Saas Landing Page",
+    year: "2025",
+    title: "Full Stack Listing Platform",
     results: [
-      { title: "Enhanced user experience by 40%" },
-      { title: "Improved site speed by 50%" },
-      { title: "Increased mobile traffic by 35%" },
+      { title: "Dynamic listing management: add, view, and edit home listings" },
+      { title: "Robust data management powered by MongoDB" },
+      { title: "Secure user authentication using Passport.js" },
     ],
     link: "https://wanderlust-fullstack-app.onrender.com/listings",
     image: darkSaasLandingPage,
   },
   {
-    company: "Innovative Co",
-    year: "2021",
-    title: "Light Saas Landing Page",
+    company: "Acme Creatives",
+    year: "2025",
+    title: "Digital Marketing Company",
     results: [
       { title: "Boosted sales by 20%" },
       { title: "Expanded customer reach by 35%" },
       { title: "Increased brand awareness by 15%" },
     ],
-    link: "https://youtu.be/7hi5zwO75yc",
+    link: "https://github.com/Lakshyadabral/Acme-Creatives-Website",
     image: lightSaasLandingPage,
   },
   {
@@ -49,7 +51,7 @@ const portfolioProjects = [
 
 export const ProjectsSection = () => {
   return (
-  <section className="pb-16 lg:py-24">
+  <section className="pb-16 lg:py-24" id="Projects">
   <div className="container">
     <SectionHeader eyebrow="Real-world Results" title="Real-world Results" description="See how I transformed concepts into engaging digital experiences."/>
     <div className=" mt-10 md:mt-20 flex flex-col  gap-20">
