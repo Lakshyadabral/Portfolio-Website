@@ -28,9 +28,9 @@ const portfolioProjects = [
     year: "2025",
     title: "Digital Marketing Company",
     results: [
-      { title: "Boosted sales by 20%" },
-      { title: "Expanded customer reach by 35%" },
-      { title: "Increased brand awareness by 15%" },
+      { title: "Built with JavaScript, Bootstrap, Vue.js, and jQuery" },
+      { title: "Showcases digital marketing services and creative strategies" },
+      { title: "Features an interactive client portfolio with dynamic content presentation" },
     ],
     link: "https://github.com/Lakshyadabral/Acme-Creatives-Website",
     image: lightSaasLandingPage,
