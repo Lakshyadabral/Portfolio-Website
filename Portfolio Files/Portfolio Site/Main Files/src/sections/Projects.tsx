@@ -36,15 +36,15 @@ const portfolioProjects = [
     image: lightSaasLandingPage,
   },
   {
-    company: "Quantum Dynamics",
-    year: "2023",
-    title: "AI Startup Landing Page",
+    company: "Music Album App",
+    year: "2025",
+    title: "Music Streaming & Album Management",
     results: [
-      { title: "Enhanced user experience by 40%" },
-      { title: "Improved site speed by 50%" },
-      { title: "Increased mobile traffic by 35%" },
+      { title: "Dynamic album management: add, view, and edit albums" },
+      { title: "Real-time server-side rendering with Express.js" },
+      { title: "Robust input validation using Joi for secure data handling" },
     ],
-    link: "#",
+    link: "https://music-album-app-production.up.railway.app/",
     image: aiStartupLandingPage,
   },
 ];
