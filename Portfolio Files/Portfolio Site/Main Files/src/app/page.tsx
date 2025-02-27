@@ -6,6 +6,7 @@ import { FutureGoals } from "@/sections/FutureGoals";
 import { AboutSection } from "@/sections/About";
 import { ContactSection } from "@/sections/Contact";
 import { Footer } from "@/sections/Footer";
+import { MobileNav } from "@/sections/MobileNav";
 
 
 export default function Home() {
@@ -19,6 +20,7 @@ export default function Home() {
       <AboutSection/>
       <ContactSection/>
       <Footer/>
+      <MobileNav/>
     </div>
   );
 }
